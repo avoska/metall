@@ -2,6 +2,9 @@ body {
 	overflow-x: hidden;
 	color: #000;
 }
+h2{
+	margin-top: 0;
+}
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 40vw;
@@ -44,7 +47,7 @@ body {
 
 .btn-block1 {
 	border-radius: 0;
-	margin-right: 20px;
+	margin-right: 0;
 }
 
 .menu_fixed {
@@ -69,7 +72,7 @@ body {
 	margin-bottom: 6vh;
 }
 .logo{
-	margin-top: 4vh;
+	margin-top: 1vh;
 }
 .img_catalog:hover {
 	border-color: blue;
