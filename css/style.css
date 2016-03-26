@@ -68,7 +68,9 @@ body {
 .indent2 {
 	margin-bottom: 6vh;
 }
-
+.logo{
+	margin-top: 4vh;
+}
 .img_catalog:hover {
 	border-color: blue;
 }
