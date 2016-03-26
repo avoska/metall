@@ -1,10 +1,9 @@
 body {
 	overflow-x: hidden;
-	color: black;
+	color: #000;
 }
 
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
 	width: 40vw;
 	height: 6vh;
 	margin-bottom: 10px;
@@ -14,16 +13,19 @@ body {
 	color: red;
 	background-color: transparent;
 	margin-right: -50px;
+	background-image: none;
 }
 
 .carousel-control.left {
 	color: red;
 	background-color: transparent;
+	background-image: none;
 	margin-left: -50px;
 }
 
 .slider {
 	height: 60vh;
+	background-color: #5cb85c;
 }
 
 .slide {
@@ -46,7 +48,7 @@ body {
 }
 
 .menu_fixed {
-	background-image: url("../img/banner_1_bg.jpg");
+	background-image: url(../img/banner_1_bg.jpg);
 	background-size: contain;
 	height: 9vh;
 }
@@ -56,11 +58,7 @@ body {
 }
 
 .white {
-	color: white;
-}
-
-.slider {
-	background-color: #5cb85c;
+	color: #FFF;
 }
 
 .indent {
@@ -79,78 +77,74 @@ body {
 	margin-top: 3vh;
 }
 
-.slide_panel {
-	display: none;
-}
-
 .armatura {
-	background: url("../img/armatura_header_bg.jpg");
+	background: url(../img/armatura_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .balka {
-	background: url("../img/balka_header_bg.jpg");
+	background: url(../img/balka_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .polosa {
-	background: url("../img/polosa_header_bg.jpg");
+	background: url(../img/polosa_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .provolka {
-	background: url("../img/provolka_header_bg.jpg");
+	background: url(../img/provolka_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .ygolok {
-	background: url("../img/ygolok_header_bg.jpg");
+	background: url(../img/ygolok_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .shvell {
-	background: url("../img/shvell_header_bg.jpg");
+	background: url(../img/shvell_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .prokat {
-	background: url("../img/prokat_header_bg.jpg");
+	background: url(../img/prokat_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .truba_kv {
-	background: url("../img/truba_kv_header_bg.jpg");
+	background: url(../img/truba_kv_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .truba_kr {
-	background: url("../img/truba_kr_header_bg.jpg");
+	background: url(../img/truba_kr_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .truba_prof {
-	background: url("../img/truba_prof_header_bg.jpg");
+	background: url(../img/truba_prof_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .nastil {
-	background: url("../img/nastil_header_bg.jpg");
+	background: url(../img/nastil_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
 
 .setka {
-	background: url("../img/setka_header_bg.jpg");
+	background: url(../img/setka_header_bg.jpg);
 	background-size: cover;
 	height: 20vh;
 }
@@ -158,37 +152,26 @@ body {
 .prais {
 	background: linear-gradient(to top, grey, lightgray);
 	border-bottom-width: 4px;
-	border-color: black;
 	height: 14vh;
+	border-color: #000;
 }
-
-.prais_text {
-	margin-top: 5vh;
-}
-
-.indent4 {
-	margin-top: 10vh;
+.prais:active:hover {
+	background: linear-gradient(to top, grey, lightgray);
+	border-bottom-width: 4px;
+	height: 14vh;
+	border-color: #000;
 }
 
 .color_grey {
 	background-color: #e9e2e9;
 }
 
-.indent5 {
-	margin-top: 1vh;
-}
-
-.info_place {
-	background: url("../img/banner_1_bg.jpg");
-	background-size: contain;
-}
-
 .black {
-	color: black;
+	color: #000;
 }
 
 .banner_1 {
-	background: url("../img/banner_1_bg.jpg") center;
+	background: url(../img/banner_1_bg.jpg) center;
 	background-size: contain;
 	max-width: 100%;
 	height: auto;
@@ -203,44 +186,15 @@ body {
 	height: 50vh;
 }
 
-.prais_text2 {
-	margin-top: 1vh;
-}
-
 .prais2 {
 	background: linear-gradient(to top, #3300C6, #006FF6);
 	border-bottom-width: 4px;
-	border-color: black;
-	height: 10vh;
-}
-
-.indent6 {
-	margin-top: 10vh;
+	height: 14vh;
+	border-color: #000;
 }
 
 .indent7 {
 	margin-top: 15vh;
-}
-
-.indent8 {
-	margin-top: 5vh;
-}
-
-.indent9 {
-	margin-top: 25vh;
-}
-
-.prodazi {
-	background: url("../img/banner_1_bg.jpg");
-	background-size: contain;
-}
-
-.slide_panel_office {
-	display: none;
-}
-
-.slide_panel_sklad {
-	display: none;
 }
 
 .partners {
@@ -254,9 +208,9 @@ body {
 }
 
 .form {
-	background: url("../img/form_bg.jpg");
+	margin-top: -2px;
+	background: url(../img/form_bg.jpg);
 	background-size: cover;
-
 	height: 100vh;
 }
 
@@ -264,27 +218,74 @@ body {
 	opacity: 1;
 }
 
-.well_style {
-	opacity: 0.5;
-	height: 80vh;
+.well{
+	background: rgba(255, 255, 255, .75);
+
 	border-radius: 20px;
 }
 
 .form-group {
 	margin-bottom: 0;
-
 }
 
 .btn_style {
 	height: 10vh;
 }
-.car_2{
+
+.car_2 {
 	opacity: 1;
 	height: 60vh;
 }
-.car_text{
+
+.car_bg {
+	background: url(../img/car_2_bg.jpg);
+}
+
+.slide_panel, .slide_panel_office, .slide_panel_sklad {
+	display: none;
+}
+
+.prais_text, .indent8 {
+	margin-top: 5vh;
+}
+
+.indent4, .indent6 {
+	margin-top: 10vh;
+}
+
+.indent5, .prais_text2 {
+	margin-top: 1vh;
+}
+
+.info_place, .prodazi {
+	background: url(../img/banner_1_bg.jpg);
+	background-size: contain;
+}
+
+.indent9, .car_text {
 	margin-top: 25vh;
 }
-.car_bg{
-	background: url("../img/car_2_bg.jpg");
+
+.prais_bg{
+	padding-top: 1vh;
+	background: url(../img/banner_1_bg.jpg);
+		background-size: contain;
+}
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: blink;
+
+}
+textarea{
+	min-height:15vh;
+}
+.form_label{
+	font-size: 1.5em;
+}
+footer{
+	background: url(../img/banner_1_bg.jpg);
+			background-size: contain;
+
 }
