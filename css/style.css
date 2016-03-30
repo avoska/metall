@@ -217,7 +217,9 @@ h2{
 	height: 15vh;
 	background-color: #5cb85c;
 }
-
+.indent20{
+	margin-top: 0;
+}
 .form {
 	margin-top: -2px;
 	background: url(../img/form_bg.jpg);
