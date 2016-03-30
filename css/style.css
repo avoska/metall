@@ -160,6 +160,7 @@ h2{
 	height: 14vh;
 	border-color: #000;
 	padding-bottom: 5vh;
+	margin-bottom: 1vh;
 }
 .prais:active:hover {
 	background: linear-gradient(to top, grey, lightgray);
@@ -175,9 +176,7 @@ h2{
 .black {
 	color: #000;
 }
-.padding_auto{
-	margin-bottom: 5vh;
-}
+
 .margin_text_btn{
 	margin-bottom: 1vh;
 }
@@ -195,7 +194,7 @@ h2{
 }
 
 .vozmojnosti {
-	height: 50vh;
+
 }
 
 .prais2 {
@@ -228,6 +227,9 @@ h2{
 
 .opasity_1 {
 	opacity: 1;
+}
+.text_vozm{
+	font-size: 1.2em;
 }
 
 .well{
@@ -266,7 +268,7 @@ h2{
 }
 
 .indent5, .prais_text2 {
-	margin-top: 1vh;
+	margin-top: 4vh;
 }
 
 .info_place, .prodazi {
