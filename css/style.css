@@ -203,7 +203,7 @@ h2{
 }
 
 .prais2 {
-	background: linear-gradient(to top, #3300C6, #006FF6);
+	background: linear-gradient(to top, grey, lightgray);
 	border-bottom-width: 4px;
 	height: 14vh;
 	border-color: #000;
