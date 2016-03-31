@@ -11,7 +11,12 @@ h2{
 	height: 6vh;
 	margin-bottom: 10px;
 }
-
+.bg_blue{
+	background-color: #b2d0ff;
+}
+.black{
+	color: black ;
+}
 .carousel-control.right {
 	color: red;
 	background-color: transparent;
